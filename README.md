@@ -12,11 +12,12 @@ Goals to achieve for the code are:
 ### Background
 
 Pizza describes a pizza with a size and optional toppings.  The price depends on size and number of toppings.  For example, large pizza is 280 Baht plus 20 Baht per topping.
+
 ```python
 pizza = Pizza('large')
-pizza.addTopping("mushroom")
+pizza.add_topping("mushroom")
 pizza.addtopping("pineapple")
-print("The price is", pizza.getPrice())
+print("The price is", pizza.get_price())
 'The price is 320'
 ```
 There are 2 files to start with:
